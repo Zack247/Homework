@@ -1,0 +1,21 @@
+*{
+	font-family: "Tahoma";
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: silver;
+}
+
+h1	{
+	padding-top: 25px;
+}
+
+p 	{
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h4	{
+	text-align: center;
+}
