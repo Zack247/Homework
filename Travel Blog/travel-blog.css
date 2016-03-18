@@ -1,0 +1,15 @@
+body {
+	font-family: sans-serif;
+}
+
+.title {
+	color: orange;
+}
+
+.adventure {
+	font-size: 20px;
+}
+
+.date {
+	font-size: 30px;
+}
