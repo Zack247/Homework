@@ -1,0 +1,190 @@
+
+* {
+	font-family: "Lato", sans-serif;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1 a {
+	color: #f9d483;
+}
+
+section {
+  width: 62%;
+  float: left;
+  padding-right: 20px;
+}
+
+aside {
+	padding-top: 9%;
+	width: 30%;
+	display: inline-block;
+	
+}
+
+.on-the-road {
+	color: #f9d483;
+	font-family: Lato;
+	font-size: 48px;
+	font-weight: 300;
+	display: inline-block;
+	padding: none;
+}
+
+.on-the-road a {
+	text-decoration: none;
+}
+
+.adventure {
+	font-size: 18px;
+	font-weight: 300;
+	display: inline;
+	padding-left: 15px;
+}
+
+header nav a {
+	width: 15%;
+	height: 50px;
+	background-color: gray;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 15px
+}
+
+#module_ad {
+	width: 100%;
+	padding-left: 20px; 
+}
+
+section article img {
+	width: 100%;
+}
+
+#continues a {
+	text-decoration: none;
+	text-align: right;
+	padding-left: 542px;
+	color: #f9d483;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+section article .date {
+	font-size: 24px;
+	color: #d2d2d2;
+	font-weight: 300;
+}
+
+/*section article h2 #title {
+	color: black;
+	text-decoration: none;
+
+}*/
+
+#module_ad img {
+	width: 100%;
+} 
+
+h2 a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: 300;
+}
+
+footer {
+	display: inline-block;
+}
+
+.more a {
+	padding-left: 91%;
+	text-align: right;
+	font-size: 12px;
+	color: #f9d483;
+	text-decoration: none;
+}
+
+footer .bottom-nav a #bn {
+	text-decoration: none;
+	color: orange;
+}
+
+p::first-letter {
+	font-size: 63px;
+	color: #d2d2d2;
+	width: 100%;
+	padding-right: 10px;
+	float: left;
+	font-weight: 300;
+}
+
+p::first-letter #no-uppercase {
+	text-decoration: underline;
+}
+
+
+#module h4 {
+	font-size: 14px;
+	width: 100%;
+}
+ #module ul li {
+ 	font-size: 13px;
+ 	text-decoration: none;
+ }
+
+
+
+/*ul li .module {
+	padding-left: 10px;
+}*/					
+/*indenting the 'Popular Posts' ul li */
+
+/*ul .popular-posts {
+	text-decoration: line-through;
+	color: black;
+}*/
+
+nav a {
+	font-size: 13px;
+	text-decoration: none;
+	text-align: center;
+	color: #f9d483;
+}
+
+footer h5 {
+	color: #d2d2d2
+	font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
