@@ -3,6 +3,9 @@
   ========================================================================== */
 * {
   box-sizing: border-box;
+  font-family: 'sans pro' sans-serif;
+  margin: auto;
+  padding: auto;
 /*   border: 1px solid red; */
 }
 
@@ -21,23 +24,27 @@
     (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
 
     White - #ffffff;
-    Light Grey -
-    Dark Grey -
-    Grey/Black(text color) -
-    Yellow -
-    Red -
+    Light Grey - #d4e1db
+    Dark Grey - #3c3a3a
+    Grey/Black(text color) - #080808
+    Yellow - #fedbod
+    Red - #ff0121
 */
 
 
 /* Global
    ================================================================ */
 body {
+    width: 100%;
+
   /* Set some defaults! font-family, font-size, color, etc. */
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
 a {
+  text-decoration: none;
+  color: #080808;
   /* Set some default styles for anchors (color, text decoration) */
 }
 
@@ -47,18 +54,76 @@ a {
 
 /* Header
    ================================================================ */
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #3c3a3a;
+}
 
+h1 a {
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: white;
+}
 
+#yellow-strip {
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+    display: block;
+}
+nav ul li {
+    float: right;
+   /* color: white;*/
+}
 
+.tagline {
+    width: 100%;
+    height: 60px;
+    background-color: silver;
+}
+
+.blurb {
+  width: 30%;
+  float: right;
+}
+
+.info {
+    width: 33.3333%;
+    height: 10%;
+    float: right;
+}
 /* Footer
    ================================================================ */
-
+footer p {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    background-color: gray;
+}
 
 
 /* Navigation
    ================================================================ */
+section {
 
+
+}
 
 
 /* Buttons
+
+
    ================================================================ */
+
+
+
+
+
+
+
+
+
+
+
