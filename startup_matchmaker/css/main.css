@@ -35,7 +35,7 @@
 /* Global
    ================================================================ */
 body {
-    width: 100%;
+    
 
   /* Set some defaults! font-family, font-size, color, etc. */
 }
@@ -50,14 +50,23 @@ a {
 
 /* Layout (columns, floats, etc.)
    ================================================================ */
-
+h3 {
+    font-family: 'merriweather';
+    font-weight: 700;
+    font-size: 24px;
+}
 
 /* Header
    ================================================================ */
 header {
     width: 100%;
-    height: 50px;
+    height: 100px;
     background-color: #3c3a3a;
+    overflow: hidden;
+    font-family: 'merriweather';
+    font-size: 16px;
+    padding-bottom: 50px;
+    text-align: left;
 }
 
 h1 a {
@@ -67,33 +76,99 @@ h1 a {
     color: white;
 }
 
+h1 {
+    padding-bottom: 5px;
+    padding-left: 18px;
+}
+
 #yellow-strip {
     width: 100%;
     height: 3px;
     background-color: yellow;
     display: block;
+    overflow: hidden;
+    padding-top: 10px;
 }
 nav ul li {
+    display: inline-block;
+    color: white;
+    padding-right: 23px;
+    padding-top: 23px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/*nav ul li a:visited {
+    color: blue;
+}*/
+
+nav {
     float: right;
-   /* color: white;*/
+}
+
+/*nav li a:hover {
+    background-color: silver;
+}*/
+
+strong {
+    font-size: 18px;
+    font-family: 'oswald';
 }
 
 .tagline {
     width: 100%;
-    height: 60px;
-    background-color: silver;
+    height: 70px;
+    padding-top: 18px;
+    margin: 0;
 }
 
+.tagline {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'merriweather italic';
+  font-weight: 700;
+}
+
+p {
+    line-height: 1.75;
+    margin-bottom: 36px;
+}
 .blurb {
-  width: 30%;
+  width: 38%;
   float: right;
+  background-color: white;
+  padding: 42px 20px 52px 54px;
+  margin: -15px 30px 40px 40px;
+  border: 1px solid gray;
+  opacity: 0.85;
+
 }
 
 .info {
-    width: 33.3333%;
-    height: 10%;
-    float: right;
+    width: 32%;
+    float: left;
+    padding-left: 32px;
+    font-size: 18px;
+    margin: 1px 1px 20px 0;
 }
+
+.info {
+    border-left: 2px solid silver;
+    padding: 20px 0 30px 40px;
+    margin-top: 20px;
+}
+
+section img {
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    height: 500px;
+}
+ 
+
+
 /* Footer
    ================================================================ */
 footer p {
@@ -101,14 +176,19 @@ footer p {
     height: 60px;
     display: inline-block;
     background-color: gray;
+    color: white;
+    padding-top: 18px;
+    padding-left: 13px;
 }
 
 
 /* Navigation
    ================================================================ */
-section {
-
-
+.banner {
+    background-image: url("../images/coworking.jpg");
+    background-position: center;
+    /*background-repeat: space;*/
+    padding-top: 82px;
 }
 
 
@@ -116,14 +196,46 @@ section {
 
 
    ================================================================ */
+.button {
+    background-color: #f0f716;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 25%;
+    padding: 10px 80px 10px 80px;
+    font-family: 'oswald';
+    font-size: 17px;
+    box-shadow: 0px 4px 3px 0px rgba(108,120,114,1);
+    box-shadow: 0px 4px 3px 0px rgba(108,120,114,1);
+    box-shadow: 0px 4px 3px 0px rgba(108,120,114,1);
+}
 
 
+.startup {
+    display: inline-block;
+}
 
+.button-red {
+    width: 100px;
+    height: 50px;
+    background-color: #c92836;
+    border: 2px solid #99061c;
+    border-radius: 15px;
+    padding: 10px 100px 10px 100px;
+    color: white;
+    font-family: 'oswald';
+    box-shadow: 0px 4px 3px 0px rgba(153,6,26,1);
+}
 
+.button-red:hover {
+    background-color: #99061c;
+}
 
+.button:hover {
+    background-color: #d9c91a;
+}
 
-
-
-
+a:active {
+    color: gray;
+}
 
 
