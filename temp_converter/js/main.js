@@ -9,23 +9,19 @@
 
 //parseFloat "converts a string to a number"
 
-
-
 var fahrenheit = 1.8 * celsius + 32;
 var celsius = (fahrenheit - 32) / 1.8;
 
 $('#fahrenheit_to_celsius').on('click', function(temperature){
 		fahrenheit = $('#temperature').val();
-		fahrenheit = parseFloat(celsius);
+		fahrenheit = parseFloat(fahrenheit);
 		celsius = (fahrenheit - 32) / 1.8;
-		return parseFloat(celsius);
+		$('#result').html();
 });
 
 $('#celsius_to_fahrenheit').on('click', function(temperature){
 		celsius = $('#temperature').val();
-		celsius = parseFloat(fahrenheit);
+		celsius = parseFloat(celsius);
 		fahrenheit = 1.8 * celsius + 32;
-		return parseFloat(fahrenheit);
+		$('#result').html();
 });
-
-
